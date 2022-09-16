@@ -7,14 +7,27 @@
     <title><%=Athletes.name%></title>
 </head>
 <a href="/athletes">Go Back</a>
-    <h3>Player</h3> 
+    <h3>Baller</h3> 
     <h3>Player-info</h3>
     <ul>
         <li> name: <%=Athletes.name%></li>
         <li>team: <%=Athletes.team%></li>
         <li>age: <%=Athletes.age%></li>
         <li>position: <%=Athletes.position%></li>
-        <li>contract: <%=Athletes.contract%></li>
+        <li class="background">contract: <%=Athletes.contract%></li>
     </ul>
+
+    <style>
+        body{
+           font-size: large;
+           background-color:aquamarine;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-weight: bolder;
+        }
+        .background{
+            background-color: red;
+        }
+    </style> 
+
 </body>
-</html>
+</html>   

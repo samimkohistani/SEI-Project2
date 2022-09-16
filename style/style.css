@@ -2,7 +2,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     color: black;
-    background-color: aqua;
+    background-color: aquamarine
 }
 
 a{
@@ -13,6 +13,6 @@ a{
 input{
     background-color: white;
     color:  red;
-    box-sizing: border-box;
-    
+
+
 }
