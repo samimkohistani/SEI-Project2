@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Athletes</title>
+</head>
+<body>
+    
+   <h1>Highest-Paid NBA Players</h1>
+   <a href="athletes/new">Add a new player</a>
+   <% for(let i=0; i < Athletes.length; i++){ %>
+   <a href="/athletes/<%=Athletes[i]._id%>" class="style"><img src=<%=Athletes[i].img%>></a>
+   <form action="/athletes/<%=Athletes[i]._id%>?_method=DELETE" method="POST">
+   <input type="submit" value="DELETE">
+   </form>
+<a href="/athletes/<%=i%>/edit">EDIT</a></span>
+<%}%>
+
+</body>
+</html>

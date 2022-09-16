@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD!</title>
+</head>
+<body>
+    <h1>Add Player</h1>
+    <form action="/athletes" method="POST">
+        name: <input type="text" name="name" placeholder="Samim" />
+        team: <input type="text" name="team" placeholder="Wizards" />
+        age: <input type="text" name="age" placeholder="22" />
+        position: <input type="text" name="position" placeholder="PG" />
+        contract: <input type="text" name="contract" placeholder="$$$$$$$" />
+        img: <input type="text" name="img" placeholder="img:link" />
+
+        <input type="submit" value="Create player"/>
+    </form>
+    <nav>
+        <a href="/athletes">Back to Players List</a>
+    </nav>
+</body>
+</html>

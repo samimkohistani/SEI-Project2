@@ -1,0 +1,18 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: black;
+    background-color: aqua;
+}
+
+a{
+    font-size: large;
+    background-color: white;
+    color: red;
+}
+input{
+    background-color: white;
+    color:  red;
+    box-sizing: border-box;
+    
+}
