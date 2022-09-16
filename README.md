@@ -17,10 +17,16 @@ This app will alow user to change players stats.
 
 # Thecnologies
 
-.HTML5
-.CSS3
-.JavaScript
-.Express
-.EJS
-.Mongoose/MongoDB
-.Node.js
+HTML5
+
+CSS3
+
+JavaScript
+
+Express
+
+EJS
+
+Mongoose/MongoDB
+
+Node.js
